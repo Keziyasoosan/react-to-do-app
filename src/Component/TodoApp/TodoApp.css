@@ -1,0 +1,72 @@
+body
+{
+    margin: 0;
+    background-image: linear-gradient(to right,rgba(18, 20, 19, 0.767) 0%,rgba(39, 196, 115, 0.795) 50%,rgba(237, 197, 124, 0.693) 50%,
+    rgba(232, 177, 218, 0.789) 100%);
+   
+    font-family: sans-serif;
+    min-height: 100vh;
+
+}
+.todo-contanier{
+    
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 30px;
+
+}
+h1{
+margin: 0;
+margin-bottom: 0px;
+color: rgba(227, 227, 210, 0.88);
+
+}
+
+.input-section{
+    background-color: #055565;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 7px 6px #0000003b;
+      
+}
+.input-section input{
+    border-radius:5px;
+    border: 1px solid rgb(92, 201, 207) ;
+    width: 100%; 
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #cedcdfa8;
+}
+input ::placeholder{
+    color: rgb(175, 150, 150);
+
+    
+    
+}
+ul{
+    
+    text-align: left;
+    padding: 0;
+}
+ul li {
+display: flex;
+list-style: none;
+ background-color: #055565;
+    
+padding: 15px;
+border-radius: 5px;
+margin-bottom: 10px;
+color: rgb(214, 205, 205);
+box-shadow: 0 4px 6px #00000066;
+
+     
+}
+ul li i {
+    text-align: right;
+    flex: 1;
+    cursor: pointer;
+}
